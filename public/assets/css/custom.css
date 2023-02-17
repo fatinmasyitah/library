@@ -1,0 +1,226 @@
+.page-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-item .page-link {
+    color: #800000;
+}
+
+.page-link {
+    border-color: transparent;
+    background-color: #FAFDFB;
+} 
+
+.page-item.active .page-link {
+    background-color: #800000;
+    border-color: #800000;
+}
+
+.page-link:hover{
+    background-color: #800000;
+    color: #fff !important;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.avatar-book {
+    vertical-align: middle;
+    width: 70px;
+    height: 100px;
+    margin: 5px;
+}
+
+.bg-font {
+    color: #fff3cd;
+    text-decoration: none;
+}
+
+.button-custom {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.modal-sheet .modal-dialog {
+    width: 380px;
+    transition: bottom .75s ease-in-out;
+  }
+  .modal-sheet .modal-footer {
+    padding-bottom: 2rem;
+  }
+  
+  .modal-alert .modal-dialog {
+    width: 380px;
+  }
+  
+  .modal-tour .modal-dialog {
+    width: 380px;
+  }
+
+.bg-header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.545));
+}
+
+.payment-info {
+    background: blue;
+    padding: 10px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .product-details {
+    padding: 10px;
+  }
+  
+  /* body {
+    background: #eee;
+  } */
+  
+  .cart {
+    background: #fff;
+  }
+  
+  .p-about {
+    font-size: 12px;
+  }
+  
+  .table-shadow {
+    -webkit-box-shadow: 5px 5px 15px -2px rgba(0,0,0,0.42);
+    box-shadow: 5px 5px 15px -2px rgba(0,0,0,0.42);
+  }
+  
+  .type {
+    font-weight: 400;
+    font-size: 10px;
+  }
+  
+  label.radio {
+    cursor: pointer;
+  }
+  
+  label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  
+  label.radio span {
+    padding: 1px 12px;
+    border: 2px solid #ada9a9;
+    display: inline-block;
+    color: #8f37aa;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 300;
+  }
+  
+  label.radio input:checked + span {
+    border-color: #fff;
+    background-color: blue;
+    color: #fff;
+  }
+  
+  .credit-inputs {
+    background: rgb(102,102,221);
+    color: #fff !important;
+    border-color: rgb(102,102,221);
+  }
+  
+  .credit-inputs::placeholder {
+    color: #fff;
+    font-size: 13px;
+  }
+  
+  .credit-card-label {
+    font-size: 9px;
+    font-weight: 300;
+  }
+  
+  .form-control.credit-inputs:focus {
+    background: rgb(102,102,221);
+    border: rgb(102,102,221);
+  }
+  
+  .line {
+    border-bottom: 1px solid rgb(102,102,221);
+  }
+  
+  .information span {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .information {
+    margin-bottom: 5px;
+  }
+  
+  .items {
+    -webkit-box-shadow: 5px 5px 4px -1px rgba(0,0,0,0.25);
+    box-shadow: 5px 5px 4px -1px rgba(0, 0, 0, 0.08);
+  }
+  
+  .spec {
+    font-size: 11px;
+  }
+
+  .c-item {
+    height: 480px;
+  }
+  
+  .c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+  }
+
+  .button-custom{
+    background-color: #800000 !important;
+  }
+
+  .main-sidebar .sidebar-menu li.active a {
+    color: #800000;
+  }
+
+  body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu > li.active > a:before {
+    background-color: #800000;
+  }
+
+  /* .nav-link{
+    background-color: #800000;
+  } */
+
+  .main-sidebar .sidebar-menu li ul.dropdown-menu li.active > a{
+    color: #800000;
+  }
+
+  .bg-primary{
+    background-color: #800000 !important;
+  }
+
+  .shadow-primary {
+    box-shadow: 0 2px 6px #80000090;
+}
+
+.card.card-statistic-2 .card-chart canvas {
+  height: 20px !important;
+
+}
+
+.closecustom {
+  position: absolute;
+  left: 450px;
+  top: 20px;
+}
